@@ -71,9 +71,31 @@
     // Vô hiệu hóa button
     button.disabled = true;
 
-   
-  
+    // const toggleButton = document.getElementById('toggleButton');
+    // const echbaysmsmessenger= document.getElementById('echbay-sms-messenger');
+    
+    // toggleButton.addEventListener('click', function() {
+    //     echbaysmsmessenger.classList.add('visible');
+    // });
 
+    // const toggleButton = document.getElementById('toggleButton');
+    // const echbaysmsmessenger = document.getElementById('hiden');
+
+    // let isVisible = false;
+
+    // toggleButton.addEventListener('click', function() {
+    //     if (!isVisible) {
+    //         echbaysmsmessenger.classList.add('visible');
+    //         echbaysmsmessenger.classList.remove('hidden');
+    //         isVisible = true;
+    //     } else {
+    //         echbaysmsmessenger.classList.add('hidden');
+    //         echbaysmsmessenger.classList.remove('visible');
+    //         isVisible = false;
+    //     }
+    // });
+
+    
     
 })(jQuery);
 
