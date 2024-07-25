@@ -9570,7 +9570,7 @@ h6,
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
-  background-size: cover;
+  background-size:cover;
 }
 
 .destination-item img {
@@ -9841,12 +9841,12 @@ h6,
         z-index: 999;
     } 
 }
-.container2 {
-  display: flex;
-  justify-content: center; /* căn giữa theo chiều ngang */
-  align-items: center; /* căn giữa theo chiều dọc */
-  
-}                  
+  .container2 {
+    display: flex;
+    justify-content: center; /* căn giữa theo chiều ngang */
+    align-items: center; /* căn giữa theo chiều dọc */
+    
+  }                  
     .bottom-contact{display:none}
     @media  (max-width: 767px) {
                     .bottom-contact{display: block;
@@ -9867,4 +9867,6 @@ h6,
                         margin-bottom: 0px;}
                      
                     }  
-  
+  #hiden{
+    display: none;
+  }                  
